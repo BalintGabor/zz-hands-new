@@ -651,7 +651,60 @@ body {
             }
         }
         
-        
+        #why {
+            max-height: 480px;
+            overflow: hidden;
+            margin: 8em 0em 0em;
+            color: #FFFFFF;
+
+            @media screen and (max-width: 1199px) {
+                margin-top: 5em;
+            }
+
+            @media screen and (max-width: 767px) {
+                max-height: fit-content;
+            }
+
+            #why-text {
+                padding: 4em 0em;
+
+                h4 {
+                    text-transform: uppercase;
+                }
+
+                h1 {
+                    font-weight: bold;
+                }
+
+                img {
+                    padding-right: 5px;
+                    padding-bottom: 5px;
+                }
+
+                @media screen and (max-width: 991px) {
+
+                    p,
+                    li {
+                        font-size: 18px;
+                    }
+                }
+
+                @media screen and (max-width: 767px) {
+                    padding: 4em 0em 2em;
+                }
+            }
+
+            #why-image {
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        }
+
         // GLOBAL //
         .underline {
             text-decoration: underline;

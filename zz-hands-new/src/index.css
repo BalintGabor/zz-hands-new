@@ -767,6 +767,68 @@ body #root #services #cards #card:hover {
           transform: scale(1.1);
 }
 
+body #root #why {
+  max-height: 480px;
+  overflow: hidden;
+  margin: 8em 0em 0em;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1199px) {
+  body #root #why {
+    margin-top: 5em;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body #root #why {
+    max-height: -webkit-fit-content;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+  }
+}
+
+body #root #why #why-text {
+  padding: 4em 0em;
+}
+
+body #root #why #why-text h4 {
+  text-transform: uppercase;
+}
+
+body #root #why #why-text h1 {
+  font-weight: bold;
+}
+
+body #root #why #why-text img {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+@media screen and (max-width: 991px) {
+  body #root #why #why-text p,
+  body #root #why #why-text li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body #root #why #why-text {
+    padding: 4em 0em 2em;
+  }
+}
+
+body #root #why #why-image {
+  overflow: hidden;
+}
+
+body #root #why #why-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 body #root .underline {
   text-decoration: underline;
   text-decoration-thickness: 5px;
