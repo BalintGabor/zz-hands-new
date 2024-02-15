@@ -1,5 +1,10 @@
 body {
-    box-sizing: content-box;
     max-width: 100%;
     overflow-x: hidden;
+    box-sizing: content-box;
+
+    #root {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 1.3rem;
+    }
 }
