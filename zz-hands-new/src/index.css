@@ -1,3 +1,4 @@
+html,
 body {
   max-width: 100%;
   overflow-x: hidden;
@@ -5,11 +6,13 @@ body {
           box-sizing: content-box;
 }
 
+html #root,
 body #root {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.3rem;
 }
 
+html #root .navbar,
 body #root .navbar {
   width: 100%;
   margin-right: 0;
@@ -17,51 +20,61 @@ body #root .navbar {
   font-size: 15px;
 }
 
+html #root .navbar .container-fluid .navbar-brand,
 body #root .navbar .container-fluid .navbar-brand {
   cursor: auto;
 }
 
+html #root .navbar .container-fluid .navbar-brand img,
 body #root .navbar .container-fluid .navbar-brand img {
   margin-left: 3em;
   cursor: pointer;
 }
 
 @media screen and (max-width: 991px) {
+  html #root .navbar .container-fluid .navbar-brand img,
   body #root .navbar .container-fluid .navbar-brand img {
     width: 200px;
     margin-left: 0px;
   }
 }
 
+html #root .navbar .container-fluid .navbar-toggler,
 body #root .navbar .container-fluid .navbar-toggler {
   margin-top: 10px;
   border: 0px;
 }
 
+html #root .navbar .container-fluid .navbar-toggler:focus,
 body #root .navbar .container-fluid .navbar-toggler:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
 }
 
+html #root .navbar .container-fluid .navbar-collapse,
 body #root .navbar .container-fluid .navbar-collapse {
   border-bottom: 1px solid #E7E0DA;
   padding: 0 1em 0 10em;
 }
 
+html #root .navbar .container-fluid .navbar-collapse a,
 body #root .navbar .container-fluid .navbar-collapse a {
   cursor: pointer;
   color: #000000;
 }
 
+html #root .navbar .container-fluid .navbar-collapse a:hover,
 body #root .navbar .container-fluid .navbar-collapse a:hover {
   color: #E7E0DA;
 }
 
 @media screen and (max-width: 991px) {
+  html #root .navbar .container-fluid .navbar-collapse,
   body #root .navbar .container-fluid .navbar-collapse {
     border-bottom: 0px;
     padding: 0px;
   }
+  html #root .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a,
   body #root .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a {
     display: inline-block;
     width: -webkit-fit-content;
@@ -76,17 +89,20 @@ body #root .navbar .container-fluid .navbar-collapse a:hover {
     -webkit-transition: background-size 0.5s, background-position 0s 0.5s;
     transition: background-size 0.5s, background-position 0s 0.5s;
   }
+  html #root .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a:hover,
   body #root .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a:hover {
     background-size: 100% 2px;
     background-position: 100% 100%;
   }
 }
 
+html #root #header,
 body #root #header {
   z-index: 2;
   margin: 0;
 }
 
+html #root #header #header-hero,
 body #root #header #header-hero {
   max-width: 100%;
   height: 100vh;
@@ -99,6 +115,7 @@ body #root #header #header-hero {
   background-position: center center;
 }
 
+html #root #header #social-media,
 body #root #header #social-media {
   margin-top: 10em;
   padding-left: 6em;
@@ -124,22 +141,26 @@ body #root #header #social-media {
   }
 }
 
+html #root #header #social-media a,
 body #root #header #social-media a {
   padding: 0.5em;
   color: #FFFFFF;
   text-decoration: none;
 }
 
+html #root #header #social-media a svg,
 body #root #header #social-media a svg {
   -webkit-transition: width 1s, height 1s;
   transition: width 1s, height 1s;
 }
 
+html #root #header #social-media a:hover svg,
 body #root #header #social-media a:hover svg {
   width: 40px;
   height: 40px;
 }
 
+html #root #header #social-media hr,
 body #root #header #social-media hr {
   width: 1px;
   height: 80px;
@@ -147,6 +168,7 @@ body #root #header #social-media hr {
   border: 1px solid #FFFFFF;
 }
 
+html #root #header #social-media p,
 body #root #header #social-media p {
   margin-top: 0.6em;
   color: #FFFFFF;
@@ -156,15 +178,18 @@ body #root #header #social-media p {
 }
 
 @media screen and (max-width: 991px) {
+  html #root #header #social-media,
   body #root #header #social-media {
     height: 100px;
     margin-top: 8em;
   }
+  html #root #header #social-media hr,
   body #root #header #social-media hr {
     width: 80px;
     height: 1px;
     margin: 0.5rem 1rem 0;
   }
+  html #root #header #social-media p,
   body #root #header #social-media p {
     margin: 0;
     padding-top: 0.5rem;
@@ -174,17 +199,20 @@ body #root #header #social-media p {
 }
 
 @media screen and (max-width: 575px) {
+  html #root #header #social-media,
   body #root #header #social-media {
     display: none;
   }
 }
 
 @media screen and (max-width: 991px) {
+  html #root #header .spacer,
   body #root #header .spacer {
     display: none;
   }
 }
 
+html #root #header #text-container,
 body #root #header #text-container {
   position: relative;
   width: 30em;
@@ -219,12 +247,14 @@ body #root #header #text-container {
   }
 }
 
+html #root #header #text-container h1,
 body #root #header #text-container h1 {
   display: inline-block;
   z-index: 0;
   font-size: 50px;
 }
 
+html #root #header #text-container h1:after,
 body #root #header #text-container h1:after {
   display: block;
   z-index: -1;
@@ -239,6 +269,7 @@ body #root #header #text-container h1:after {
   content: '';
 }
 
+html #root #header #text-container h1:hover:after,
 body #root #header #text-container h1:hover:after {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
@@ -246,10 +277,12 @@ body #root #header #text-container h1:hover:after {
           transform-origin: 0% 50%;
 }
 
+html #root #header #text-container p,
 body #root #header #text-container p {
   font-size: 20px;
 }
 
+html #root #header #text-container a,
 body #root #header #text-container a {
   border: 0;
   padding: 15px 40px;
@@ -262,6 +295,7 @@ body #root #header #text-container a {
           transition-timing-function: ease;
 }
 
+html #root #header #text-container a:hover,
 body #root #header #text-container a:hover {
   border: 0px;
   -webkit-box-shadow: inset 170px 0px #73573E;
@@ -269,6 +303,7 @@ body #root #header #text-container a:hover {
 }
 
 @media screen and (max-width: 992px) {
+  html #root #header #text-container,
   body #root #header #text-container {
     margin-top: -14em;
     padding-left: 6em;
@@ -276,15 +311,18 @@ body #root #header #text-container a:hover {
 }
 
 @media screen and (max-width: 575px) {
+  html #root #header #text-container,
   body #root #header #text-container {
     margin-top: 8em;
     padding: 0 2em;
   }
+  html #root #header #text-container h1,
   body #root #header #text-container h1 {
     font-size: 40px;
   }
 }
 
+html #root #about,
 body #root #about {
   margin: 8em 0em 0em;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #FFFFFF), to(#E7E0DA));
@@ -292,17 +330,20 @@ body #root #about {
 }
 
 @media screen and (max-width: 1399px) {
+  html #root #about,
   body #root #about {
     margin-top: 6em;
   }
 }
 
 @media screen and (max-width: 575px) {
+  html #root #about,
   body #root #about {
     margin-top: 2em;
   }
 }
 
+html #root #about #about-gallery,
 body #root #about #about-gallery {
   position: relative;
   max-height: 780px;
@@ -310,6 +351,7 @@ body #root #about #about-gallery {
 }
 
 @media screen and (max-width: 575px) {
+  html #root #about #about-gallery,
   body #root #about #about-gallery {
     height: auto;
     margin-top: 4em;
@@ -317,6 +359,7 @@ body #root #about #about-gallery {
   }
 }
 
+html #root #about #about-gallery .img01,
 body #root #about #about-gallery .img01 {
   position: absolute;
   top: 0%;
@@ -331,6 +374,7 @@ body #root #about #about-gallery .img01 {
 }
 
 @media screen and (max-width: 991px) {
+  html #root #about #about-gallery .img01,
   body #root #about #about-gallery .img01 {
     right: 0%;
   }
@@ -358,6 +402,7 @@ body #root #about #about-gallery .img01 {
   }
 }
 
+html #root #about #about-gallery .img01 img,
 body #root #about #about-gallery .img01 img {
   width: 100%;
   height: 100%;
@@ -366,6 +411,7 @@ body #root #about #about-gallery .img01 img {
      object-fit: cover;
 }
 
+html #root #about #about-gallery .img02,
 body #root #about #about-gallery .img02 {
   position: absolute;
   top: 13%;
@@ -380,6 +426,7 @@ body #root #about #about-gallery .img02 {
 }
 
 @media screen and (max-width: 991px) {
+  html #root #about #about-gallery .img02,
   body #root #about #about-gallery .img02 {
     left: 0;
   }
@@ -407,6 +454,7 @@ body #root #about #about-gallery .img02 {
   }
 }
 
+html #root #about #about-gallery .img02 img,
 body #root #about #about-gallery .img02 img {
   width: 100%;
   height: 100%;
@@ -415,6 +463,7 @@ body #root #about #about-gallery .img02 img {
      object-fit: cover;
 }
 
+html #root #about #about-gallery .img03,
 body #root #about #about-gallery .img03 {
   position: absolute;
   top: 58%;
@@ -451,6 +500,7 @@ body #root #about #about-gallery .img03 {
   }
 }
 
+html #root #about #about-gallery .img03 img,
 body #root #about #about-gallery .img03 img {
   width: 100%;
   height: 100%;
@@ -459,6 +509,7 @@ body #root #about #about-gallery .img03 img {
      object-fit: cover;
 }
 
+html #root #about #about-gallery .img04,
 body #root #about #about-gallery .img04 {
   position: absolute;
   top: 63%;
@@ -473,6 +524,7 @@ body #root #about #about-gallery .img04 {
           animation: loading-img04 2.5s;
 }
 
+html #root #about #about-gallery .img04 img,
 body #root #about #about-gallery .img04 img {
   width: 100%;
   height: 100%;
@@ -503,6 +555,7 @@ body #root #about #about-gallery .img04 img {
   }
 }
 
+html #root #about #about-gallery .img05,
 body #root #about #about-gallery .img05 {
   position: absolute;
   top: 68%;
@@ -539,6 +592,7 @@ body #root #about #about-gallery .img05 {
   }
 }
 
+html #root #about #about-gallery .img05 img,
 body #root #about #about-gallery .img05 img {
   width: 100%;
   height: 100%;
@@ -547,6 +601,7 @@ body #root #about #about-gallery .img05 img {
      object-fit: cover;
 }
 
+html #root #about #about-text,
 body #root #about #about-text {
   position: relative;
   -webkit-animation: loading-about-text 2s;
@@ -554,12 +609,14 @@ body #root #about #about-text {
 }
 
 @media screen and (max-width: 1799px) {
+  html #root #about #about-text p,
   body #root #about #about-text p {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 575px) {
+  html #root #about #about-text,
   body #root #about #about-text {
     margin-top: 4em;
   }
@@ -587,34 +644,40 @@ body #root #about #about-text {
   }
 }
 
+html #root #about #about-text h1,
 body #root #about #about-text h1 {
   font-size: 50px;
   font-weight: bold;
 }
 
 @media screen and (max-width: 1799px) {
+  html #root #about #about-text h1,
   body #root #about #about-text h1 {
     font-size: 40px;
   }
 }
 
 @media screen and (max-width: 575px) {
+  html #root #about #about-text h1,
   body #root #about #about-text h1 {
     font-size: 30px;
   }
 }
 
+html #root #about #about-text h4,
 body #root #about #about-text h4 {
   text-transform: uppercase;
   color: #E7E0DA;
 }
 
+html #root #about #about-text #textbox,
 body #root #about #about-text #textbox {
   border-left: solid 5px #73573E;
   -webkit-box-shadow: 8px 8px 5px #969696;
           box-shadow: 8px 8px 5px #969696;
 }
 
+html #root #about #about-text a,
 body #root #about #about-text a {
   border: 0px;
   padding: 15px 40px;
@@ -628,6 +691,7 @@ body #root #about #about-text a {
           transition-timing-function: ease;
 }
 
+html #root #about #about-text a:hover,
 body #root #about #about-text a:hover {
   border: 0px;
   -webkit-box-shadow: inset 170px 0px #E7E0DA;
@@ -635,6 +699,7 @@ body #root #about #about-text a:hover {
   color: #000000;
 }
 
+html #root #services,
 body #root #services {
   margin: 0em;
   padding-top: 8em;
@@ -643,6 +708,7 @@ body #root #services {
 }
 
 @media screen and (max-width: 991px) {
+  html #root #services,
   body #root #services {
     padding-top: 5em;
     background: -webkit-gradient(linear, left bottom, left top, color-stop(41.5%, #FFFFFF), color-stop(41.5%, #E7E0DA));
@@ -651,62 +717,74 @@ body #root #services {
 }
 
 @media screen and (max-width: 575px) {
+  html #root #services,
   body #root #services {
     background: -webkit-gradient(linear, left bottom, left top, color-stop(45.5%, #FFFFFF), color-stop(45.5%, #E7E0DA));
     background: linear-gradient(0deg, #FFFFFF 45.5%, #E7E0DA 45.5%);
   }
 }
 
+html #root #services #services-header,
 body #root #services #services-header {
   margin: 0em;
 }
 
+html #root #services #services-header h1,
 body #root #services #services-header h1 {
   font-size: 50px;
   font-weight: bold;
 }
 
 @media screen and (max-width: 1399px) {
+  html #root #services #services-header h1,
   body #root #services #services-header h1 {
     font-size: 38px;
   }
 }
 
 @media screen and (max-width: 575px) {
+  html #root #services #services-header h1,
   body #root #services #services-header h1 {
     font-size: 30px;
   }
 }
 
+html #root #services #services-header h4,
 body #root #services #services-header h4 {
   text-transform: uppercase;
   color: #73573E;
 }
 
 @media screen and (max-width: 1399px) {
+  html #root #services #services-header h4,
   body #root #services #services-header h4 {
     font-size: 20px;
   }
 }
 
+html #root #services #services-header p,
 body #root #services #services-header p {
   color: #73573E;
 }
 
+html #root #services #services-header p span,
 body #root #services #services-header p span {
   font-weight: 700;
 }
 
 @media screen and (max-width: 1399px) {
+  html #root #services #services-header p,
   body #root #services #services-header p {
     font-size: 18px;
   }
 }
 
+html #root #services #cards,
 body #root #services #cards {
   max-width: 1200px;
 }
 
+html #root #services #cards #card,
 body #root #services #cards #card {
   position: relative;
   height: 19em;
@@ -718,14 +796,17 @@ body #root #services #cards #card {
   transition: transform .8s, -webkit-transform .8s;
 }
 
+html #root #services #cards #card h3,
 body #root #services #cards #card h3 {
   font-weight: bold;
 }
 
+html #root #services #cards #card p,
 body #root #services #cards #card p {
   font-size: 17px;
 }
 
+html #root #services #cards #card a,
 body #root #services #cards #card a {
   position: absolute;
   right: 2em;
@@ -739,34 +820,41 @@ body #root #services #cards #card a {
   color: #000000;
 }
 
+html #root #services #cards #card a:hover,
 body #root #services #cards #card a:hover {
   background-color: #73573E;
   color: #FFFFFF;
 }
 
 @media screen and (max-width: 1499px) {
+  html #root #services #cards #card,
   body #root #services #cards #card {
     max-height: 335px;
   }
+  html #root #services #cards #card h3,
   body #root #services #cards #card h3 {
     font-size: 24px;
   }
+  html #root #services #cards #card p,
   body #root #services #cards #card p {
     font-size: 15px;
   }
 }
 
 @media screen and (max-width: 767px) {
+  html #root #services #cards #card,
   body #root #services #cards #card {
     max-height: 340px;
   }
 }
 
+html #root #services #cards #card:hover,
 body #root #services #cards #card:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 
+html #root #why,
 body #root #why {
   max-height: 480px;
   overflow: hidden;
@@ -775,12 +863,14 @@ body #root #why {
 }
 
 @media screen and (max-width: 1199px) {
+  html #root #why,
   body #root #why {
     margin-top: 5em;
   }
 }
 
 @media screen and (max-width: 767px) {
+  html #root #why,
   body #root #why {
     max-height: -webkit-fit-content;
     max-height: -moz-fit-content;
@@ -788,24 +878,30 @@ body #root #why {
   }
 }
 
+html #root #why #why-text,
 body #root #why #why-text {
   padding: 4em 0em;
 }
 
+html #root #why #why-text h4,
 body #root #why #why-text h4 {
   text-transform: uppercase;
 }
 
+html #root #why #why-text h1,
 body #root #why #why-text h1 {
   font-weight: bold;
 }
 
+html #root #why #why-text img,
 body #root #why #why-text img {
   padding-right: 5px;
   padding-bottom: 5px;
 }
 
 @media screen and (max-width: 991px) {
+  html #root #why #why-text p,
+  html #root #why #why-text li,
   body #root #why #why-text p,
   body #root #why #why-text li {
     font-size: 18px;
@@ -813,15 +909,18 @@ body #root #why #why-text img {
 }
 
 @media screen and (max-width: 767px) {
+  html #root #why #why-text,
   body #root #why #why-text {
     padding: 4em 0em 2em;
   }
 }
 
+html #root #why #why-image,
 body #root #why #why-image {
   overflow: hidden;
 }
 
+html #root #why #why-image img,
 body #root #why #why-image img {
   width: 100%;
   height: 100%;
@@ -829,53 +928,63 @@ body #root #why #why-image img {
      object-fit: cover;
 }
 
+html #root #process,
 body #root #process {
   margin: 6em 14em;
   padding-bottom: 4em;
 }
 
 @media screen and (max-width: 1599px) {
+  html #root #process,
   body #root #process {
     margin: 5em 8em;
   }
 }
 
 @media screen and (max-width: 1399px) {
+  html #root #process,
   body #root #process {
     margin: 5em 3.5em;
   }
 }
 
 @media screen and (max-width: 1199px) {
+  html #root #process,
   body #root #process {
     margin: 4em 1em;
     padding-bottom: 2em;
   }
 }
 
+html #root #process h4,
 body #root #process h4 {
   text-transform: uppercase;
   color: #E7E0DA;
 }
 
+html #root #process h1,
 body #root #process h1 {
   font-weight: bold;
 }
 
+html #root #process #steps-container,
 body #root #process #steps-container {
   margin: 0em;
 }
 
+html #root #process #steps-container #step-up,
 body #root #process #steps-container #step-up {
   margin-bottom: 4em;
   padding-left: 60px;
 }
 
+html #root #process #steps-container #step-up p,
 body #root #process #steps-container #step-up p {
   margin-left: -1em;
   font-weight: bold;
 }
 
+html #root #process #steps-container #step-up #icon-frame,
 body #root #process #steps-container #step-up #icon-frame {
   width: 172px;
   height: 172px;
@@ -885,12 +994,14 @@ body #root #process #steps-container #step-up #icon-frame {
   -webkit-transform: skewX(-14deg);
 }
 
+html #root #process #steps-container #step-up #icon-frame #icon-container,
 body #root #process #steps-container #step-up #icon-frame #icon-container {
   width: 150px;
   height: 150px;
   margin: 10px;
 }
 
+html #root #process #steps-container #step-up #icon-frame #icon-container #icon,
 body #root #process #steps-container #step-up #icon-frame #icon-container #icon {
   width: 100%;
   height: 100%;
@@ -899,11 +1010,13 @@ body #root #process #steps-container #step-up #icon-frame #icon-container #icon 
   -webkit-transform: skewX(14deg);
 }
 
+html #root #process #steps-container #step-up img,
 body #root #process #steps-container #step-up img {
   top: 140px;
   left: 270px;
 }
 
+html #root #process #steps-container #step-up span,
 body #root #process #steps-container #step-up span {
   top: 140px;
   left: 160px;
@@ -915,22 +1028,26 @@ body #root #process #steps-container #step-up span {
 }
 
 @media screen and (max-width: 1299px) {
+  html #root #process #steps-container #step-up span,
   body #root #process #steps-container #step-up span {
     left: 120px;
   }
 }
 
+html #root #process #steps-container #step-down,
 body #root #process #steps-container #step-down {
   margin-top: 6em;
   padding-left: 60px;
 }
 
+html #root #process #steps-container #step-down p,
 body #root #process #steps-container #step-down p {
   margin-top: 1rem;
   margin-left: -1em;
   font-weight: bold;
 }
 
+html #root #process #steps-container #step-down #icon-frame,
 body #root #process #steps-container #step-down #icon-frame {
   width: 172px;
   height: 172px;
@@ -940,12 +1057,14 @@ body #root #process #steps-container #step-down #icon-frame {
   border: 1px solid #E7E0DA;
 }
 
+html #root #process #steps-container #step-down #icon-frame #icon-container,
 body #root #process #steps-container #step-down #icon-frame #icon-container {
   width: 150px;
   height: 150px;
   margin: 10px;
 }
 
+html #root #process #steps-container #step-down #icon-frame #icon-container #icon,
 body #root #process #steps-container #step-down #icon-frame #icon-container #icon {
   width: 100%;
   height: 100%;
@@ -954,11 +1073,13 @@ body #root #process #steps-container #step-down #icon-frame #icon-container #ico
   -webkit-transform: skewX(-14deg);
 }
 
+html #root #process #steps-container #step-down img,
 body #root #process #steps-container #step-down img {
   top: 35px;
   left: 270px;
 }
 
+html #root #process #steps-container #step-down span,
 body #root #process #steps-container #step-down span {
   top: -105px;
   left: 150px;
@@ -970,12 +1091,15 @@ body #root #process #steps-container #step-down span {
 }
 
 @media screen and (max-width: 1299px) {
+  html #root #process #steps-container #step-down span,
   body #root #process #steps-container #step-down span {
     left: 110px;
   }
 }
 
 @media screen and (max-width: 1299px) {
+  html #root #process #steps-container #step-up,
+  html #root #process #steps-container #step-down,
   body #root #process #steps-container #step-up,
   body #root #process #steps-container #step-down {
     padding-left: 40px;
@@ -985,6 +1109,8 @@ body #root #process #steps-container #step-down span {
 }
 
 @media screen and (max-width: 991px) {
+  html #root #process #steps-container #step-up,
+  html #root #process #steps-container #step-down,
   body #root #process #steps-container #step-up,
   body #root #process #steps-container #step-down {
     padding-left: 0px;
@@ -994,6 +1120,8 @@ body #root #process #steps-container #step-down span {
 }
 
 @media screen and (max-width: 767px) {
+  html #root #process #steps-container #step-up,
+  html #root #process #steps-container #step-down,
   body #root #process #steps-container #step-up,
   body #root #process #steps-container #step-down {
     -webkit-transform: scale(0.9, 0.9) translateX(15%);
@@ -1002,6 +1130,8 @@ body #root #process #steps-container #step-down span {
 }
 
 @media screen and (max-width: 575px) {
+  html #root #process #steps-container #step-up,
+  html #root #process #steps-container #step-down,
   body #root #process #steps-container #step-up,
   body #root #process #steps-container #step-down {
     -webkit-transform: scale(0.9, 0.9) translateX(30%);
@@ -1010,6 +1140,8 @@ body #root #process #steps-container #step-down span {
 }
 
 @media screen and (max-width: 399px) {
+  html #root #process #steps-container #step-up,
+  html #root #process #steps-container #step-down,
   body #root #process #steps-container #step-up,
   body #root #process #steps-container #step-down {
     -webkit-transform: scale(0.9, 0.9) translateX(20%);
@@ -1018,51 +1150,61 @@ body #root #process #steps-container #step-down span {
 }
 
 @media screen and (max-width: 1599px) {
+  html #root #process #steps-container #arrow,
   body #root #process #steps-container #arrow {
     -webkit-transform: translateX(-40%);
             transform: translateX(-40%);
   }
 }
 
+html #root #testimonials,
 body #root #testimonials {
   min-height: 650px;
   background: linear-gradient(180deg, #FFFFFF 0px, #E7E0DA 400px, #FFFFFF 400px);
 }
 
+html #root #testimonials h4,
 body #root #testimonials h4 {
   text-transform: uppercase;
   color: #73573E;
 }
 
 @media screen and (max-width: 575px) {
+  html #root #testimonials h4,
   body #root #testimonials h4 {
     font-size: 20px;
   }
 }
 
+html #root #testimonials h1,
 body #root #testimonials h1 {
   font-size: 50px;
   font-weight: bold;
 }
 
 @media screen and (max-width: 575px) {
+  html #root #testimonials h1,
   body #root #testimonials h1 {
     font-size: 40px;
   }
 }
 
+html #root #testimonials #carouselExampleInterval,
 body #root #testimonials #carouselExampleInterval {
   padding-bottom: 2em;
 }
 
+html #root #testimonials #carouselExampleInterval .carousel-indicators,
 body #root #testimonials #carouselExampleInterval .carousel-indicators {
   z-index: 3;
 }
 
+html #root #testimonials #carouselExampleInterval .carousel-inner,
 body #root #testimonials #carouselExampleInterval .carousel-inner {
   padding-bottom: 1em;
 }
 
+html #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container,
 body #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container {
   position: relative;
   z-index: 2;
@@ -1073,6 +1215,7 @@ body #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item
           box-shadow: 0px 0px 10px #E7E0DA;
 }
 
+html #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container #testimonial-data img,
 body #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container #testimonial-data img {
   width: 100px;
   height: 100px;
@@ -1080,50 +1223,60 @@ body #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item
   border-radius: 50%;
 }
 
+html #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container #testimonial-data iframe,
 body #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container #testimonial-data iframe {
   width: 16.5px;
   height: 16px;
 }
 
+html #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container p,
 body #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container p {
   font-size: 15px;
 }
 
+html #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container .quote,
 body #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item .carousel-item-inner #testimonial-container .quote {
   position: absolute;
   right: 2.5em;
   bottom: 40px;
 }
 
+html #root #contact,
 body #root #contact {
   width: 100%;
 }
 
+html #root #contact #get-quote,
 body #root #contact #get-quote {
   margin: 0em;
   padding: 3em 0em;
 }
 
+html #root #contact #get-quote #get-quote-text h2,
 body #root #contact #get-quote #get-quote-text h2 {
   font-weight: bold;
 }
 
 @media screen and (max-width: 991px) {
+  html #root #contact #get-quote #get-quote-text h4,
   body #root #contact #get-quote #get-quote-text h4 {
     font-size: 20px;
   }
+  html #root #contact #get-quote #get-quote-text h2,
   body #root #contact #get-quote #get-quote-text h2 {
     font-size: 25px;
   }
 }
 
 @media screen and (max-width: 575px) {
+  html #root #contact #get-quote #get-quote-text,
   body #root #contact #get-quote #get-quote-text {
     margin-bottom: 1em;
     text-align: center;
   }
 }
 
+html #root #contact #get-quote #get-quote-button a,
 body #root #contact #get-quote #get-quote-button a {
   border: 0em;
   padding: 15px 40px;
@@ -1137,6 +1290,7 @@ body #root #contact #get-quote #get-quote-button a {
           transition-timing-function: ease;
 }
 
+html #root #contact #get-quote #get-quote-button a:hover,
 body #root #contact #get-quote #get-quote-button a:hover {
   border: 0px;
   -webkit-box-shadow: inset 200px 0px #E7E0DA;
@@ -1144,38 +1298,46 @@ body #root #contact #get-quote #get-quote-button a:hover {
   color: #000000;
 }
 
+html #root #contact #contact-us,
 body #root #contact #contact-us {
   margin: 5em 0em 0em;
 }
 
+html #root #contact #contact-us h4,
 body #root #contact #contact-us h4 {
   text-transform: uppercase;
   color: #E7E0DA;
 }
 
+html #root #contact #contact-us h1,
 body #root #contact #contact-us h1 {
   margin-bottom: 1em;
   font-weight: bold;
 }
 
 @media screen and (max-width: 1199px) {
+  html #root #contact #contact-us #get-in-touch h4,
   body #root #contact #contact-us #get-in-touch h4 {
     font-size: 20px;
   }
+  html #root #contact #contact-us #get-in-touch h1,
   body #root #contact #contact-us #get-in-touch h1 {
     font-size: 30px;
   }
+  html #root #contact #contact-us #get-in-touch p,
   body #root #contact #contact-us #get-in-touch p {
     font-size: 20px;
   }
 }
 
 @media screen and (max-width: 1199px) and (max-width: 991px) {
+  html #root #contact #contact-us #get-in-touch p,
   body #root #contact #contact-us #get-in-touch p {
     font-size: 18px;
   }
 }
 
+html #root #contact #contact-us #get-in-touch img,
 body #root #contact #contact-us #get-in-touch img {
   border: 2px solid #73573E;
   padding: 25px;
@@ -1185,27 +1347,35 @@ body #root #contact #contact-us #get-in-touch img {
           transition-timing-function: ease;
 }
 
+html #root #contact #contact-us #get-in-touch img:hover,
 body #root #contact #contact-us #get-in-touch img:hover {
   -webkit-box-shadow: inset 5em 0em #E7E0DA;
           box-shadow: inset 5em 0em #E7E0DA;
 }
 
+html #root #contact #contact-us #get-in-touch #contact-telephone,
 body #root #contact #contact-us #get-in-touch #contact-telephone {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
+html #root #contact #contact-us #get-in-touch #contact-telephone #text,
+html #root #contact #contact-us #get-in-touch #contact-email #text,
 body #root #contact #contact-us #get-in-touch #contact-telephone #text,
 body #root #contact #contact-us #get-in-touch #contact-email #text {
   padding: 10px 0px 0px;
 }
 
+html #root #contact #contact-us #get-in-touch #contact-telephone #text p,
+html #root #contact #contact-us #get-in-touch #contact-email #text p,
 body #root #contact #contact-us #get-in-touch #contact-telephone #text p,
 body #root #contact #contact-us #get-in-touch #contact-email #text p {
   margin: 0px;
 }
 
 @media screen and (max-width: 1199px) {
+  html #root #contact #contact-us #get-in-touch #contact-telephone #text,
+  html #root #contact #contact-us #get-in-touch #contact-email #text,
   body #root #contact #contact-us #get-in-touch #contact-telephone #text,
   body #root #contact #contact-us #get-in-touch #contact-email #text {
     margin-left: 35px;
@@ -1213,6 +1383,8 @@ body #root #contact #contact-us #get-in-touch #contact-email #text p {
 }
 
 @media screen and (max-width: 991px) {
+  html #root #contact #contact-us #get-in-touch #contact-telephone #text,
+  html #root #contact #contact-us #get-in-touch #contact-email #text,
   body #root #contact #contact-us #get-in-touch #contact-telephone #text,
   body #root #contact #contact-us #get-in-touch #contact-email #text {
     margin-left: 50px;
@@ -1220,6 +1392,8 @@ body #root #contact #contact-us #get-in-touch #contact-email #text p {
 }
 
 @media screen and (max-width: 767px) {
+  html #root #contact #contact-us #get-in-touch #contact-telephone #text,
+  html #root #contact #contact-us #get-in-touch #contact-email #text,
   body #root #contact #contact-us #get-in-touch #contact-telephone #text,
   body #root #contact #contact-us #get-in-touch #contact-email #text {
     margin-left: 20px;
@@ -1227,21 +1401,26 @@ body #root #contact #contact-us #get-in-touch #contact-email #text p {
 }
 
 @media screen and (max-width: 599px) {
+  html #root #contact #contact-us #get-in-touch #contact-telephone #text,
+  html #root #contact #contact-us #get-in-touch #contact-email #text,
   body #root #contact #contact-us #get-in-touch #contact-telephone #text,
   body #root #contact #contact-us #get-in-touch #contact-email #text {
     margin-left: 50px;
   }
 }
 
+html #root #contact #contact-us #contact-form,
 body #root #contact #contact-us #contact-form {
   z-index: 2;
 }
 
+html #root #contact #contact-us #contact-form h2,
 body #root #contact #contact-us #contact-form h2 {
   font-weight: bold;
   color: #FFFFFF;
 }
 
+html #root #contact #contact-us #contact-form textarea,
 body #root #contact #contact-us #contact-form textarea {
   height: 160px !important;
   resize: none;
@@ -1249,6 +1428,7 @@ body #root #contact #contact-us #contact-form textarea {
   font-size: 1rem;
 }
 
+html #root #contact #contact-us #contact-form button,
 body #root #contact #contact-us #contact-form button {
   border: 0px;
   padding: 15px 40px;
@@ -1261,22 +1441,26 @@ body #root #contact #contact-us #contact-form button {
           transition-timing-function: ease;
 }
 
+html #root #contact #contact-us #contact-form button:hover,
 body #root #contact #contact-us #contact-form button:hover {
   border: 0px;
   -webkit-box-shadow: inset 200px 0px #E7E0DA;
           box-shadow: inset 200px 0px #E7E0DA;
 }
 
+html #root #map,
 body #root #map {
   margin-top: -6em;
 }
 
 @media screen and (max-width: 767px) {
+  html #root #map,
   body #root #map {
     margin-top: 2em;
   }
 }
 
+html #root #map #map-container-google-1 iframe,
 body #root #map #map-container-google-1 iframe {
   width: 100%;
   height: 50vh;
@@ -1285,14 +1469,17 @@ body #root #map #map-container-google-1 iframe {
           filter: grayscale(100%);
 }
 
+html #root #footer,
 body #root #footer {
   color: #FFFFFF;
 }
 
+html #root #footer #footer-text,
 body #root #footer #footer-text {
   margin: 0em;
 }
 
+html #root #footer #footer-text .animation-underline,
 body #root #footer #footer-text .animation-underline {
   display: inline-block;
   width: -webkit-fit-content;
@@ -1308,29 +1495,37 @@ body #root #footer #footer-text .animation-underline {
   transition: background-size 0.3s, background-position 0s 0.3s;
 }
 
+html #root #footer #footer-text .animation-underline:hover,
 body #root #footer #footer-text .animation-underline:hover {
   background-position: 100% 100%;
   background-size: 100% 2px;
 }
 
 @media screen and (max-width: 767px) {
+  html #root #footer #footer-text h2,
+  html #root #footer #footer-text h4,
   body #root #footer #footer-text h2,
   body #root #footer #footer-text h4 {
     font-size: 22px;
   }
+  html #root #footer #footer-text a,
   body #root #footer #footer-text a {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 575px) {
+  html #root #footer #footer-text h2,
+  html #root #footer #footer-text h4,
   body #root #footer #footer-text h2,
   body #root #footer #footer-text h4 {
     font-size: 20px;
   }
+  html #root #footer #footer-text a,
   body #root #footer #footer-text a {
     font-size: 16px;
   }
+  html #root #footer #footer-text #explore,
   body #root #footer #footer-text #explore {
     margin-top: 1em;
     border-top: 1px solid white;
@@ -1338,6 +1533,7 @@ body #root #footer #footer-text .animation-underline:hover {
   }
 }
 
+html #root .underline,
 body #root .underline {
   text-decoration: underline;
   text-decoration-thickness: 5px;
@@ -1347,14 +1543,17 @@ body #root .underline {
           text-decoration-style: solid;
 }
 
+html #root .bg-white,
 body #root .bg-white {
   background-color: #FFFFFF;
 }
 
+html #root .bg-brown-light,
 body #root .bg-brown-light {
   background-color: #E7E0DA;
 }
 
+html #root .bg-brown-dark,
 body #root .bg-brown-dark {
   background-color: #73573E;
 }
