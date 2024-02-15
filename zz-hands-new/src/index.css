@@ -93,7 +93,7 @@ body #root #header #header-hero {
   height: 100vh;
   overflow-x: hidden;
   z-index: 1;
-  opacity: 90%;
+  opacity: 95%;
   margin: 0;
   background: url(./images/zz_hands_hero.png);
   background-size: cover;
@@ -266,8 +266,8 @@ body #root #header #text-container a {
 
 body #root #header #text-container a:hover {
   border: 0px;
-  -webkit-box-shadow: inset 170px 0 #73573e;
-          box-shadow: inset 170px 0 #73573e;
+  -webkit-box-shadow: inset 170px 0px #73573E;
+          box-shadow: inset 170px 0px #73573E;
 }
 
 @media screen and (max-width: 992px) {
@@ -285,5 +285,357 @@ body #root #header #text-container a:hover {
   body #root #header #text-container h1 {
     font-size: 40px;
   }
+}
+
+body #root #about {
+  margin: 8em 0em 0em;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, #FFFFFF), to(#E7E0DA));
+  background: linear-gradient(180deg, #FFFFFF 30%, #E7E0DA 100%);
+}
+
+@media screen and (max-width: 1399px) {
+  body #root #about {
+    margin-top: 6em;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #root #about {
+    margin-top: 2em;
+  }
+}
+
+body #root #about #about-gallery {
+  position: relative;
+  max-height: 780px;
+  height: 85vh;
+}
+
+@media screen and (max-width: 575px) {
+  body #root #about #about-gallery {
+    height: auto;
+    margin-top: 4em;
+    padding-top: 120%;
+  }
+}
+
+body #root #about #about-gallery .img01 {
+  position: absolute;
+  top: 0%;
+  right: 8%;
+  max-width: 520px;
+  max-height: 580px;
+  aspect-ratio: 520 / 580;
+  -webkit-clip-path: polygon(0% 7%, 100% 0%, 100% 100%, 0% 91%);
+          clip-path: polygon(0% 7%, 100% 0%, 100% 100%, 0% 91%);
+  -webkit-animation: loading-img01 2s;
+          animation: loading-img01 2s;
+}
+
+@media screen and (max-width: 991px) {
+  body #root #about #about-gallery .img01 {
+    right: 0%;
+  }
+}
+
+@-webkit-keyframes loading-img01 {
+  from {
+    right: -15em;
+    opacity: 0;
+  }
+  to {
+    right: 3em;
+    opacity: 1;
+  }
+}
+
+@keyframes loading-img01 {
+  from {
+    right: -15em;
+    opacity: 0;
+  }
+  to {
+    right: 3em;
+    opacity: 1;
+  }
+}
+
+body #root #about #about-gallery .img01 img {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #root #about #about-gallery .img02 {
+  position: absolute;
+  top: 13%;
+  right: 20%;
+  max-width: 480px;
+  max-height: 530px;
+  aspect-ratio: 480 / 530;
+  -webkit-clip-path: polygon(0% 0%, 100% 9%, 100% 90%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 9%, 100% 90%, 0% 100%);
+  -webkit-animation: loading-img02 2s;
+          animation: loading-img02 2s;
+}
+
+@media screen and (max-width: 991px) {
+  body #root #about #about-gallery .img02 {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes loading-img02 {
+  from {
+    right: 25em;
+    opacity: 0;
+  }
+  to {
+    right: 10em;
+    opacity: 1;
+  }
+}
+
+@keyframes loading-img02 {
+  from {
+    right: 25em;
+    opacity: 0;
+  }
+  to {
+    right: 10em;
+    opacity: 1;
+  }
+}
+
+body #root #about #about-gallery .img02 img {
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #root #about #about-gallery .img03 {
+  position: absolute;
+  top: 58%;
+  right: 50%;
+  max-width: 200px;
+  max-height: 220px;
+  aspect-ratio: 200 / 220;
+  margin-left: 10%;
+  -webkit-clip-path: polygon(0% 0%, 100% 14%, 100% 86%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 14%, 100% 86%, 0% 100%);
+  -webkit-animation: loading-img03 2s;
+          animation: loading-img03 2s;
+}
+
+@-webkit-keyframes loading-img03 {
+  from {
+    top: 35em;
+    opacity: 0;
+  }
+  to {
+    top: 22em;
+    opacity: 1;
+  }
+}
+
+@keyframes loading-img03 {
+  from {
+    top: 35em;
+    opacity: 0;
+  }
+  to {
+    top: 22em;
+    opacity: 1;
+  }
+}
+
+body #root #about #about-gallery .img03 img {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #root #about #about-gallery .img04 {
+  position: absolute;
+  top: 63%;
+  right: 34%;
+  max-width: 200px;
+  max-height: 220px;
+  aspect-ratio: 200 / 220;
+  margin-left: 26%;
+  -webkit-clip-path: polygon(0% 0%, 100% 14%, 100% 86%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 14%, 100% 86%, 0% 100%);
+  -webkit-animation: loading-img04 2.5s;
+          animation: loading-img04 2.5s;
+}
+
+body #root #about #about-gallery .img04 img {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@-webkit-keyframes loading-img04 {
+  from {
+    top: 37em;
+    opacity: 0;
+  }
+  to {
+    top: 24em;
+    opacity: 1;
+  }
+}
+
+@keyframes loading-img04 {
+  from {
+    top: 37em;
+    opacity: 0;
+  }
+  to {
+    top: 24em;
+    opacity: 1;
+  }
+}
+
+body #root #about #about-gallery .img05 {
+  position: absolute;
+  top: 68%;
+  right: 18%;
+  max-width: 200px;
+  max-height: 220px;
+  aspect-ratio: 200 / 220;
+  margin-left: 42%;
+  -webkit-clip-path: polygon(0% 0%, 100% 14%, 100% 86%, 0% 100%);
+          clip-path: polygon(0% 0%, 100% 14%, 100% 86%, 0% 100%);
+  -webkit-animation: loading-img05 3s;
+          animation: loading-img05 3s;
+}
+
+@-webkit-keyframes loading-img05 {
+  from {
+    opacity: 0;
+    top: 39em;
+  }
+  to {
+    top: 26em;
+    opacity: 1;
+  }
+}
+
+@keyframes loading-img05 {
+  from {
+    opacity: 0;
+    top: 39em;
+  }
+  to {
+    top: 26em;
+    opacity: 1;
+  }
+}
+
+body #root #about #about-gallery .img05 img {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body #root #about #about-text {
+  position: relative;
+  -webkit-animation: loading-about-text 2s;
+          animation: loading-about-text 2s;
+}
+
+@media screen and (max-width: 1799px) {
+  body #root #about #about-text p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #root #about #about-text {
+    margin-top: 4em;
+  }
+}
+
+@-webkit-keyframes loading-about-text {
+  from {
+    left: 20em;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes loading-about-text {
+  from {
+    left: 20em;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+body #root #about #about-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1799px) {
+  body #root #about #about-text h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #root #about #about-text h1 {
+    font-size: 30px;
+  }
+}
+
+body #root #about #about-text h4 {
+  text-transform: uppercase;
+  color: #E7E0DA;
+}
+
+body #root #about #about-text #textbox {
+  border-left: solid 5px #73573E;
+  background-color: #E7E0DA;
+  -webkit-box-shadow: 8px 8px 5px #969696;
+          box-shadow: 8px 8px 5px #969696;
+}
+
+body #root #about #about-text a {
+  border: 0px;
+  padding: 15px 40px;
+  background-color: #73573E;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-size: 13px;
+  font-weight: bold;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+body #root #about #about-text a:hover {
+  border: 0px;
+  -webkit-box-shadow: inset 170px 0px #E7E0DA;
+          box-shadow: inset 170px 0px #E7E0DA;
+  color: #000000;
 }
 /*# sourceMappingURL=index.css.map */
