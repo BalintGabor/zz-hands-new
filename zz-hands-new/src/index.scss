@@ -6,5 +6,83 @@ body {
     #root {
         font-family: 'Noto Sans', sans-serif;
         font-size: 1.3rem;
+
+        .navbar {
+            width: 100%;
+            margin-right: 0;
+            font-family: 'Quicksand', sans-serif;
+            font-size: 15px;
+
+            .container-fluid {
+                .navbar-brand {
+                    cursor: auto;
+
+                    img {
+                        margin-left: 3em;
+                        cursor: pointer;
+
+                        @media screen and (max-width: 991px) {
+                            width: 200px;
+                            margin-left: 0px;
+                        }
+                    }
+                }
+
+                .navbar-toggler {
+                    margin-top: 10px;
+                    border: 0px;
+                }
+
+                .navbar-toggler:focus {
+                    box-shadow: none;
+                }
+
+                .navbar-collapse {
+                    border-bottom: 1px solid #E7E0DA;
+                    padding: 0 1em 0 10em;
+
+                    a {
+                        cursor: pointer;
+                        color: #000000;
+                    }
+
+                    a:hover {
+                        color: #E7E0DA;
+                    }
+                }
+
+                @media screen and (max-width: 991px) {
+                    .navbar-collapse {
+                        border-bottom: 0px;
+                        padding: 0px;
+
+                        .navbar-nav {
+                            .nav-item {
+                                a {
+                                    display: inline-block;
+                                    width: fit-content;
+                                    
+                                    padding-bottom: 2px;
+                                    
+                                    background-size: 0% 2px;
+                                    background-position: 0% 100%;
+                                    background-repeat: no-repeat;
+                                    background-image: linear-gradient(#E7E0DA 0 0);
+                                    
+                                    transition:
+                                        background-size 0.5s,
+                                        background-position 0s 0.5s;
+                                }
+
+                                a:hover {
+                                    background-size: 100% 2px;
+                                    background-position: 100% 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

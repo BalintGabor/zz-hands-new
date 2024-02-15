@@ -12,16 +12,16 @@ function Navbar() {
         <div className="collapse navbar-collapse flex-grow-0" id="navbarScroll">
           <ul className="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll gap-2">
             <li className="nav-item text-center">
-              <a className="nav-link active" href="#header">Home</a>
+              <a className="nav-link text-uppercase active" href="#header">Home</a>
             </li>
             <li className="nav-item text-center">
-              <a className="nav-link" href="#services">Services</a>
+              <a className="nav-link text-uppercase" href="#services">Services</a>
             </li>
             <li className="nav-item text-center">
-              <a className="nav-link" href="#gallery">Portfolio</a>
+              <a className="nav-link text-uppercase" href="#gallery">Portfolio</a>
             </li>
             <li className="nav-item text-center">
-              <a className="nav-link" href="#contact">Contact</a>
+              <a className="nav-link text-uppercase" href="#contact">Contact</a>
             </li>
           </ul>
         </div>

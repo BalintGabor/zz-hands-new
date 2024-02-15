@@ -9,4 +9,76 @@ body #root {
   font-family: 'Noto Sans', sans-serif;
   font-size: 1.3rem;
 }
+
+body #root .navbar {
+  width: 100%;
+  margin-right: 0;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+
+body #root .navbar .container-fluid .navbar-brand {
+  cursor: auto;
+}
+
+body #root .navbar .container-fluid .navbar-brand img {
+  margin-left: 3em;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 991px) {
+  body #root .navbar .container-fluid .navbar-brand img {
+    width: 200px;
+    margin-left: 0px;
+  }
+}
+
+body #root .navbar .container-fluid .navbar-toggler {
+  margin-top: 10px;
+  border: 0px;
+}
+
+body #root .navbar .container-fluid .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+body #root .navbar .container-fluid .navbar-collapse {
+  border-bottom: 1px solid #E7E0DA;
+  padding: 0 1em 0 10em;
+}
+
+body #root .navbar .container-fluid .navbar-collapse a {
+  cursor: pointer;
+  color: #000000;
+}
+
+body #root .navbar .container-fluid .navbar-collapse a:hover {
+  color: #E7E0DA;
+}
+
+@media screen and (max-width: 991px) {
+  body #root .navbar .container-fluid .navbar-collapse {
+    border-bottom: 0px;
+    padding: 0px;
+  }
+  body #root .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a {
+    display: inline-block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding-bottom: 2px;
+    background-size: 0% 2px;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #E7E0DA));
+    background-image: linear-gradient(#E7E0DA 0 0);
+    -webkit-transition: background-size 0.5s, background-position 0s 0.5s;
+    transition: background-size 0.5s, background-position 0s 0.5s;
+  }
+  body #root .navbar .container-fluid .navbar-collapse .navbar-nav .nav-item a:hover {
+    background-size: 100% 2px;
+    background-position: 100% 100%;
+  }
+}
 /*# sourceMappingURL=index.css.map */
