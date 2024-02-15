@@ -955,6 +955,167 @@ body {
             }
         }
 
+        #contact {
+            width: 100%;
+
+            #get-quote {
+                margin: 0em;
+                padding: 3em 0em;
+
+                #get-quote-text {
+                    h2 {
+                        font-weight: bold;
+                    }
+
+                    @media screen and (max-width: 991px) {
+                        h4 {
+                            font-size: 20px;
+                        }
+
+                        h2 {
+                            font-size: 25px;
+                        }
+                    }
+
+                    @media screen and (max-width: 575px) {
+                        margin-bottom: 1em;
+                        text-align: center;
+                    }
+                }
+
+                #get-quote-button {
+                    a {
+                        border: 0em;
+                        padding: 15px 40px;
+
+                        font-size: 13px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+
+                        transition: 1s;
+                        transition-timing-function: ease;
+                    }
+
+                    a:hover {
+                        border: 0px;
+                        box-shadow: inset 200px 0px #E7E0DA;
+                        color: #000000;
+                    }
+                }
+            }
+
+            #contact-us {
+                margin: 5em 0em 0em;
+
+                h4 {
+                    text-transform: uppercase;
+                    color: #E7E0DA;
+                }
+
+                h1 {
+                    margin-bottom: 1em;
+                    font-weight: bold;
+                }
+
+                #get-in-touch {
+                    @media screen and (max-width: 1199px) {
+                        h4 {
+                            font-size: 20px;
+                        }
+
+                        h1 {
+                            font-size: 30px;
+                        }
+
+                        p {
+                            font-size: 20px;
+
+                            @media screen and (max-width: 991px) {
+                                font-size: 18px;
+                            }
+                        }
+                    }
+
+                    img {
+                        border: 2px solid #73573E;
+                        padding: 25px;
+                        transition: 1s;
+                        transition-timing-function: ease;
+                    }
+
+                    img:hover {
+                        box-shadow: inset 5em 0em #E7E0DA;
+                    }
+
+                    #contact-telephone {
+                        margin-top: 1em;
+                        margin-bottom: 1em;
+                    }
+
+                    #contact-telephone,
+                    #contact-email {
+                        #text {
+                            padding: 10px 0px 0px;
+
+                            p {
+                                margin: 0px;
+                            }
+
+                            @media screen and (max-width: 1199px) {
+                                margin-left: 35px;
+                            }
+
+                            @media screen and (max-width: 991px) {
+                                margin-left: 50px;
+                            }
+
+                            @media screen and (max-width: 767px) {
+                                margin-left: 20px;
+                            }
+
+                            @media screen and (max-width: 599px) {
+                                margin-left: 50px;
+                            }
+                        }
+                    }
+                }
+
+                #contact-form {
+                    z-index: 2;
+
+                    h2 {
+                        font-weight: bold;
+                        color: #FFFFFF;
+                    }
+
+                    textarea {
+                        height: 160px !important;
+                        resize: none;
+                        padding: 6px 10px;
+                        font-size: 1rem;
+                    }
+
+                    button {
+                        border: 0px;
+                        padding: 15px 40px;
+                        
+                        font-size: 13px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        
+                        transition: 1s;
+                        transition-timing-function: ease;
+                    }
+
+                    button:hover {
+                        border: 0px;
+                        box-shadow: inset 200px 0px #E7E0DA;
+                    }
+                }
+            }
+        }
+
         // GLOBAL //
         .underline {
             text-decoration: underline;

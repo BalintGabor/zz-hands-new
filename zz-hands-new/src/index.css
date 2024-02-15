@@ -1095,6 +1095,178 @@ body #root #testimonials #carouselExampleInterval .carousel-inner .carousel-item
   bottom: 40px;
 }
 
+body #root #contact {
+  width: 100%;
+}
+
+body #root #contact #get-quote {
+  margin: 0em;
+  padding: 3em 0em;
+}
+
+body #root #contact #get-quote #get-quote-text h2 {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 991px) {
+  body #root #contact #get-quote #get-quote-text h4 {
+    font-size: 20px;
+  }
+  body #root #contact #get-quote #get-quote-text h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #root #contact #get-quote #get-quote-text {
+    margin-bottom: 1em;
+    text-align: center;
+  }
+}
+
+body #root #contact #get-quote #get-quote-button a {
+  border: 0em;
+  padding: 15px 40px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+body #root #contact #get-quote #get-quote-button a:hover {
+  border: 0px;
+  -webkit-box-shadow: inset 200px 0px #E7E0DA;
+          box-shadow: inset 200px 0px #E7E0DA;
+  color: #000000;
+}
+
+body #root #contact #contact-us {
+  margin: 5em 0em 0em;
+}
+
+body #root #contact #contact-us h4 {
+  text-transform: uppercase;
+  color: #E7E0DA;
+}
+
+body #root #contact #contact-us h1 {
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1199px) {
+  body #root #contact #contact-us #get-in-touch h4 {
+    font-size: 20px;
+  }
+  body #root #contact #contact-us #get-in-touch h1 {
+    font-size: 30px;
+  }
+  body #root #contact #contact-us #get-in-touch p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (max-width: 991px) {
+  body #root #contact #contact-us #get-in-touch p {
+    font-size: 18px;
+  }
+}
+
+body #root #contact #contact-us #get-in-touch img {
+  border: 2px solid #73573E;
+  padding: 25px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+body #root #contact #contact-us #get-in-touch img:hover {
+  -webkit-box-shadow: inset 5em 0em #E7E0DA;
+          box-shadow: inset 5em 0em #E7E0DA;
+}
+
+body #root #contact #contact-us #get-in-touch #contact-telephone {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+body #root #contact #contact-us #get-in-touch #contact-telephone #text,
+body #root #contact #contact-us #get-in-touch #contact-email #text {
+  padding: 10px 0px 0px;
+}
+
+body #root #contact #contact-us #get-in-touch #contact-telephone #text p,
+body #root #contact #contact-us #get-in-touch #contact-email #text p {
+  margin: 0px;
+}
+
+@media screen and (max-width: 1199px) {
+  body #root #contact #contact-us #get-in-touch #contact-telephone #text,
+  body #root #contact #contact-us #get-in-touch #contact-email #text {
+    margin-left: 35px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  body #root #contact #contact-us #get-in-touch #contact-telephone #text,
+  body #root #contact #contact-us #get-in-touch #contact-email #text {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body #root #contact #contact-us #get-in-touch #contact-telephone #text,
+  body #root #contact #contact-us #get-in-touch #contact-email #text {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  body #root #contact #contact-us #get-in-touch #contact-telephone #text,
+  body #root #contact #contact-us #get-in-touch #contact-email #text {
+    margin-left: 50px;
+  }
+}
+
+body #root #contact #contact-us #contact-form {
+  z-index: 2;
+}
+
+body #root #contact #contact-us #contact-form h2 {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+body #root #contact #contact-us #contact-form textarea {
+  height: 160px !important;
+  resize: none;
+  padding: 6px 10px;
+  font-size: 1rem;
+}
+
+body #root #contact #contact-us #contact-form button {
+  border: 0px;
+  padding: 15px 40px;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+body #root #contact #contact-us #contact-form button:hover {
+  border: 0px;
+  -webkit-box-shadow: inset 200px 0px #E7E0DA;
+          box-shadow: inset 200px 0px #E7E0DA;
+}
+
 body #root .underline {
   text-decoration: underline;
   text-decoration-thickness: 5px;
