@@ -81,4 +81,209 @@ body #root .navbar .container-fluid .navbar-collapse a:hover {
     background-position: 100% 100%;
   }
 }
+
+body #root #header {
+  z-index: 2;
+  margin: 0;
+  background-color: #E7E0DA;
+}
+
+body #root #header #header-hero {
+  max-width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  z-index: 1;
+  opacity: 90%;
+  margin: 0;
+  background: url(./images/zz_hands_hero.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+body #root #header #social-media {
+  margin-top: 10em;
+  padding-left: 6em;
+  -webkit-animation: loading-social-media 2s;
+          animation: loading-social-media 2s;
+}
+
+@-webkit-keyframes loading-social-media {
+  from {
+    left: -150px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+@keyframes loading-social-media {
+  from {
+    left: -150px;
+  }
+  to {
+    left: 0;
+  }
+}
+
+body #root #header #social-media a {
+  padding: 0.5em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+body #root #header #social-media a svg {
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+}
+
+body #root #header #social-media a:hover svg {
+  width: 40px;
+  height: 40px;
+}
+
+body #root #header #social-media hr {
+  width: 1px;
+  height: 80px;
+  opacity: 1;
+  border: 1px solid #FFFFFF;
+}
+
+body #root #header #social-media p {
+  margin-top: 0.6em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+@media screen and (max-width: 991px) {
+  body #root #header #social-media {
+    height: 100px;
+    margin-top: 8em;
+  }
+  body #root #header #social-media hr {
+    width: 80px;
+    height: 1px;
+    margin: 0.5rem 1rem 0;
+  }
+  body #root #header #social-media p {
+    margin: 0;
+    padding-top: 0.5rem;
+    -webkit-transform: none;
+            transform: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #root #header #social-media {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  body #root #header .spacer {
+    display: none;
+  }
+}
+
+body #root #header #text-container {
+  position: relative;
+  width: 30em;
+  opacity: 100%;
+  margin-top: 10em;
+  padding: 0em;
+  font-family: 'Noto Sans', sans-serif;
+  color: #FFFFFF;
+  -webkit-animation: loading-text-container 2s;
+          animation: loading-text-container 2s;
+}
+
+@-webkit-keyframes loading-text-container {
+  from {
+    left: -150px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes loading-text-container {
+  from {
+    left: -150px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+
+body #root #header #text-container h1 {
+  display: inline-block;
+  z-index: 0;
+  font-size: 50px;
+}
+
+body #root #header #text-container h1:after {
+  display: block;
+  z-index: -1;
+  margin-top: -8px;
+  border-top: solid 5px #73573E;
+  -webkit-transition: -webkit-transform 700ms ease-in-out;
+  transition: -webkit-transform 700ms ease-in-out;
+  transition: transform 700ms ease-in-out;
+  transition: transform 700ms ease-in-out, -webkit-transform 700ms ease-in-out;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  content: '';
+}
+
+body #root #header #text-container h1:hover:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  -webkit-transform-origin: 0% 50%;
+          transform-origin: 0% 50%;
+}
+
+body #root #header #text-container p {
+  font-size: 20px;
+}
+
+body #root #header #text-container a {
+  border: 0;
+  padding: 15px 40px;
+  background-color: #FFFFFF;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+body #root #header #text-container a:hover {
+  border: 0px;
+  -webkit-box-shadow: inset 170px 0 #73573e;
+          box-shadow: inset 170px 0 #73573e;
+}
+
+@media screen and (max-width: 992px) {
+  body #root #header #text-container {
+    margin-top: -14em;
+    padding-left: 6em;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #root #header #text-container {
+    margin-top: 8em;
+    padding: 0 2em;
+  }
+  body #root #header #text-container h1 {
+    font-size: 40px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
