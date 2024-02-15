@@ -30,12 +30,12 @@ function About() {
         <h1>We provide one of the bests full renovation services in
           <span> </span><span className="underline">London</span>
         </h1>
-        <div id="textbox" className="my-5 pt-1 pe-2 pb-3 ps-4">
+        <div id="textbox" className="my-5 pt-1 pe-2 pb-3 ps-4 bg-brown-light">
           <p>With years of experience and quality in our trade, let us work with you on your next project.</p>
         </div>
         <p>We will take care of your next renovation in London, from the concept, and design to the finished product.</p>
         <p>We create high quality and unique projects with our motivated team.</p>
-        <a className="btn btn-lg rounded-0 mt-4" href="#contact" role="button">More details</a>
+        <a className="btn btn-lg rounded-0 mt-4 bg-brown-dark" href="#contact" role="button">More details</a>
       </div>
     </div>
   )

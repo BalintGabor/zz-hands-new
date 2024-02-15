@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <div id="header">
+    <div id="header" className="bg-brown-light">
         <div id="header-hero" className="row justify-content-sm-start justify-content-center">
           <div id="social-media" className="d-sm-flex flex-lg-column col-lg-1 col-0 align-items-center">
             <a href="https://www.facebook.com/zzhands.uk" className="px-lg-1 px-sm-2">
@@ -27,7 +27,7 @@ function Header() {
           <div id="text-container" className="col-lg-4 align-self-start">
               <h1>Nothing"s impossible</h1>
               <p>From small repairs to large renovations, we can do it all! We are dedicated to providing quality home improvement services</p>
-              <a className="btn btn-lg rounded-0" href="#contact" role="button">Get a quote</a>
+              <a className="btn btn-lg rounded-0 bg-white" href="#contact" role="button">Get a quote</a>
           </div>
         </div>
     </div>

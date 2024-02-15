@@ -85,7 +85,6 @@ body #root .navbar .container-fluid .navbar-collapse a:hover {
 body #root #header {
   z-index: 2;
   margin: 0;
-  background-color: #E7E0DA;
 }
 
 body #root #header #header-hero {
@@ -254,7 +253,6 @@ body #root #header #text-container p {
 body #root #header #text-container a {
   border: 0;
   padding: 15px 40px;
-  background-color: #FFFFFF;
   font-size: 12px;
   font-weight: bold;
   text-transform: uppercase;
@@ -613,7 +611,6 @@ body #root #about #about-text h4 {
 
 body #root #about #about-text #textbox {
   border-left: solid 5px #73573E;
-  background-color: #E7E0DA;
   -webkit-box-shadow: 8px 8px 5px #969696;
           box-shadow: 8px 8px 5px #969696;
 }
@@ -621,7 +618,6 @@ body #root #about #about-text #textbox {
 body #root #about #about-text a {
   border: 0px;
   padding: 15px 40px;
-  background-color: #73573E;
   text-transform: uppercase;
   color: #FFFFFF;
   font-size: 13px;
@@ -637,5 +633,158 @@ body #root #about #about-text a:hover {
   -webkit-box-shadow: inset 170px 0px #E7E0DA;
           box-shadow: inset 170px 0px #E7E0DA;
   color: #000000;
+}
+
+body #root #services {
+  margin: 0em;
+  padding-top: 8em;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(45%, #FFFFFF), color-stop(45%, #E7E0DA));
+  background: linear-gradient(0deg, #FFFFFF 45%, #E7E0DA 45%);
+}
+
+@media screen and (max-width: 991px) {
+  body #root #services {
+    padding-top: 5em;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(41.5%, #FFFFFF), color-stop(41.5%, #E7E0DA));
+    background: linear-gradient(0deg, #FFFFFF 41.5%, #E7E0DA 41.5%);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #root #services {
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(45.5%, #FFFFFF), color-stop(45.5%, #E7E0DA));
+    background: linear-gradient(0deg, #FFFFFF 45.5%, #E7E0DA 45.5%);
+  }
+}
+
+body #root #services #services-header {
+  margin: 0em;
+}
+
+body #root #services #services-header h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1399px) {
+  body #root #services #services-header h1 {
+    font-size: 38px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  body #root #services #services-header h1 {
+    font-size: 30px;
+  }
+}
+
+body #root #services #services-header h4 {
+  text-transform: uppercase;
+  color: #73573E;
+}
+
+@media screen and (max-width: 1399px) {
+  body #root #services #services-header h4 {
+    font-size: 20px;
+  }
+}
+
+body #root #services #services-header p {
+  color: #73573E;
+}
+
+body #root #services #services-header p span {
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1399px) {
+  body #root #services #services-header p {
+    font-size: 18px;
+  }
+}
+
+body #root #services #cards {
+  max-width: 1200px;
+}
+
+body #root #services #cards #card {
+  position: relative;
+  height: 19em;
+  -webkit-box-shadow: 0px 0px 10px #E7E0DA;
+          box-shadow: 0px 0px 10px #E7E0DA;
+  -webkit-transition: -webkit-transform .8s;
+  transition: -webkit-transform .8s;
+  transition: transform .8s;
+  transition: transform .8s, -webkit-transform .8s;
+}
+
+body #root #services #cards #card h3 {
+  font-weight: bold;
+}
+
+body #root #services #cards #card p {
+  font-size: 17px;
+}
+
+body #root #services #cards #card a {
+  position: absolute;
+  right: 2em;
+  bottom: -1em;
+  width: 3em;
+  border: solid 1px #E7E0DA;
+  -webkit-box-shadow: 0px 0px 10px #E7E0DA;
+          box-shadow: 0px 0px 10px #E7E0DA;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+body #root #services #cards #card a:hover {
+  background-color: #73573E;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1499px) {
+  body #root #services #cards #card {
+    max-height: 335px;
+  }
+  body #root #services #cards #card h3 {
+    font-size: 24px;
+  }
+  body #root #services #cards #card p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body #root #services #cards #card {
+    max-height: 340px;
+  }
+}
+
+body #root #services #cards #card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+body #root .underline {
+  text-decoration: underline;
+  text-decoration-thickness: 5px;
+  -webkit-text-decoration-color: #73573E;
+          text-decoration-color: #73573E;
+  -webkit-text-decoration-style: solid;
+          text-decoration-style: solid;
+}
+
+body #root .bg-white {
+  background-color: #FFFFFF;
+}
+
+body #root .bg-brown-light {
+  background-color: #E7E0DA;
+}
+
+body #root .bg-brown-dark {
+  background-color: #73573E;
 }
 /*# sourceMappingURL=index.css.map */
