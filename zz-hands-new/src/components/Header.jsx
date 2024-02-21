@@ -25,7 +25,7 @@ function Header() {
           </div>
           <div className="spacer col-xl-3 col-lg-2"></div>
           <div id="text-container" className="col-lg-4 align-self-start">
-              <h1>Nothing"s impossible</h1>
+              <h1>Nothing's impossible</h1>
               <p>From small repairs to large renovations, we can do it all! We are dedicated to providing quality home improvement services</p>
               <a className="btn btn-lg rounded-0 bg-white" href="#contact" role="button">Get a quote</a>
           </div>

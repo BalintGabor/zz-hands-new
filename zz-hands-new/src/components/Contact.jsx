@@ -44,19 +44,19 @@ function Contact() {
           <h4 className="text-center">Contact us</h4>
           <h2 className="mb-5 text-center">Write anytime</h2>
           <div className="my-3">
-            <input type="text" class="form-control rounded-0" id="name" placeholder="Your name" required />
+            <input type="text" className="form-control rounded-0" id="name" placeholder="Your name" required />
           </div>
           <div className="my-3">
-            <input type="email" class="form-control rounded-0" id="name" placeholder="Email address" required />
+            <input type="email" className="form-control rounded-0" id="name" placeholder="Email address" required />
           </div>
           <div className="my-3">
-            <input type="text" class="form-control rounded-0" id="name" placeholder="Phone number" required />
+            <input type="text" className="form-control rounded-0" id="name" placeholder="Phone number" required />
           </div>
           <div className="my-3">
             <textarea className="w-100" placeholder="Write a message" id="contact-form-text" rows="6"></textarea>
           </div>
           <div className="my-3">
-            <button class="btn rounded-0 bg-white" type="submit">Submit form</button>
+            <button className="btn rounded-0 bg-white" type="submit">Submit form</button>
           </div>
         </form>
       </div>

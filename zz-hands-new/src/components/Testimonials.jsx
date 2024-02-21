@@ -15,13 +15,13 @@ function Testimonials() {
     <div id="testimonials" className="px-3">
       <h4 className="text-center">Real testimonials</h4>
       <h1 className="text-center">What our customers are talking about <span> </span><span className="underline">ZZ Hands</span></h1>
-      <div id="carouselExampleInterval" class="carousel slide mt-5 mb-4 container" data-bs-ride="carousel">
-        <div class="carousel-indicators">
+      <div id="carouselExampleInterval" className="carousel slide mt-5 mb-4 container" data-bs-ride="carousel">
+        <div className="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" className="active bg-brown-dark" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" className="bg-brown-dark" aria-label="Slide 2"></button>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
+        <div className="carousel-inner">
+          <div className="carousel-item active" data-bs-interval="10000">
             <div className="carousel-item-inner row justify-content-around">
               <div id="testimonial-container" className="col-3 mb-4 p-5 bg-white">
                 <div id="testimonial-data" className="d-flex flex-row m-0">
@@ -73,7 +73,7 @@ function Testimonials() {
               </div>
             </div>
           </div>
-          <div class="carousel-item" data-bs-interval="10000">
+          <div className="carousel-item" data-bs-interval="10000">
             <div className="carousel-item-inner row justify-content-around">
               <div id="testimonial-container" className="col-3 mb-4 p-5 bg-white">
                 <div id="testimonial-data" className="d-flex flex-row m-0">
